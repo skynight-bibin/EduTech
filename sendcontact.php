@@ -1,15 +1,15 @@
 // Contact subject
-$subject ="$subject"; 
+$subject ="$name"; 
 // Details
-$message="$detail";
+$message="$name";
 
 // Mail of sender
-$mail_from="$customer_mail"; 
+$mail_from="$email"; 
 // From 
 $header="from: $name <$mail_from>";
 
 // Enter your email address
-$to ='someone@somewhere.com';
+$to ='edutech0612@gmail.com';
 
 $send_contact=mail($to,$subject,$message,$header);
 
