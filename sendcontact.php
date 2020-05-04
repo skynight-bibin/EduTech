@@ -9,7 +9,7 @@ $mail_from="$email";
 $header="from: $name <$mail_from>";
 
 // Enter your email address
-$to ='edutech0612@gmail.com';
+$to ='bpvbibinpv298@yahoo.com';
 
 $send_contact=mail($to,$subject,$message,$header);
 
